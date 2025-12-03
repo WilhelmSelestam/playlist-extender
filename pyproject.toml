@@ -1,0 +1,21 @@
+[project]
+name = "playlist-extender"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "WilhelmSelestam",email = "selestamw@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.15"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "torch (>=2.9.1,<3.0.0)",
+    "torchvision (>=0.24.1,<0.25.0)",
+    "torchaudio (>=2.9.1,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
